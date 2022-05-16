@@ -691,6 +691,6 @@ app.post("/IMAGEM/", (req, res, next) => {
 })
 
 
-app.listen(process.env.PORT, () => {
+app.listen(process.env.PORT_APP, () => {
     console.log(`Servidor iniciado na porta`)
 });
