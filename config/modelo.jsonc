@@ -19,7 +19,7 @@
              "text": "Almost before we knew it, we had left the ground",
              "estilo": "bold",
              "tamanho": "150pt",
-             "Font": "Macondo",
+             "font": "Macondo",
              "cor": "#359fe5",
              "rotacao": "0.1",
              "position_y": 400,

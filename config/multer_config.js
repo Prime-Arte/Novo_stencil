@@ -8,7 +8,7 @@ module.exports = {
             cb(null, path.join(__dirname, '..', './fonts'))
         },
         filename: (req, file, cb) => {
-            const file_name = `${file.originalname}`
+            const file_name = `${file.originalname.toLowerCase()}`
 
             cb(null, file_name);
         }

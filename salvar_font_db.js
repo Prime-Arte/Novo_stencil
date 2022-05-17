@@ -11,11 +11,17 @@ module.exports.salvar_font_db = async function (font_name, res) {
                 error: error
             })
         }
+
+
         conn.query(sql, (error, result, fields) => {
             if (error) {
                 return res.status(500).send({
                     error: error
                 })
+            } else {
+                return res.status(200).send(
+                    "font Cadastrada"
+                ).end()
             }
 
         })

@@ -20,6 +20,8 @@ module.exports.camada_text = function (modifications, variador, canvas_dados) {
         src: path.join(__dirname, `./fonts/${modelo}.ttf`)
 
     }
+
+
     registerFont(font.src, {
         family: font.name
     });

@@ -54,9 +54,7 @@ app.post('/font', multer(multer_config).single('font'), (req, res) => {
 
     salvar_font_db(font_name, res)
 
-    return res.status(200).send(
-        "font Cadastrada"
-    ).end()
+
 
 })
 
